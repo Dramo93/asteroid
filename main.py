@@ -47,7 +47,7 @@ def main():
                 #print("calcoloCollisione")
                 if asteroid.collision(shot):
                     print ("distrutto")
-                    asteroid.kill()
+                    asteroid.split()
                     shot.kill()
 
         
